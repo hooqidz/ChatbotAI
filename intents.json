@@ -1,0 +1,71 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey!",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good Day"
+      ],
+      "responses": [
+        "Hey",
+        "Hello Thanks for visiting!",
+        "Hi there what I can do for you",
+        "Hi there what I can do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting!",
+        "Have a nice day",
+        "Bye! come back again soon"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which item do you have?",
+        "What kinds of items are there?",
+        "What do you sell"
+      ],
+      "responses": ["We sell coffe and tea", "We have coffe and tea"]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accepts Mastercard?",
+        "Can I pay with paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accepts VISA, Mastercard and PayPal",
+        "We accepts major credit cards and PayPal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery"
+      ],
+      "responses": ["Delivery takes 2-4 days", "Shipping takes 2-4 days"]
+    },
+    {
+      "tag": "funny",
+      "patterns": ["Tell me a joke!", "Tell me something funny!"],
+      "responses": ["Why budy have two side", "Because he is funny"]
+    }
+  ]
+}
